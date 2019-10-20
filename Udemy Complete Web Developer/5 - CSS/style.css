@@ -1,0 +1,18 @@
+h2, p{
+    color: red;
+    text-align: center;
+    border: 5px dashed purple;
+    cursor: pointer;
+}
+
+li{
+    display: inline-block;
+    list-style-type: none;
+}
+p{
+    color:#045A7A;
+}
+
+.paragraf{
+    border: 5px dashed green;
+}
