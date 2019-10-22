@@ -1,18 +1,24 @@
-h2, p{
-    color: red;
-    text-align: center;
-    border: 5px dashed purple;
-    cursor: pointer;
+h2,
+p {
+  color: red;
+  text-align: center;
+  border: 5px dashed purple;
+  cursor: pointer;
 }
 
-li{
-    display: inline-block;
-    list-style-type: none;
+li {
+  display: inline-block;
+  list-style-type: none;
 }
-p{
-    color:#045A7A;
+p {
+  color: #045a7a;
+  /*font-style: italic;*/
+  font-weight: normal;
+  font-size: 200%;
+  font-family: "Big Shoulders Text", cursive;
+  padding: 5%;
 }
 
-.paragraf{
-    border: 5px dashed green;
+.paragraf {
+  border: 5px dashed green;
 }
