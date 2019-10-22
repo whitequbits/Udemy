@@ -1,8 +1,12 @@
 h2,
 p {
+  /* Text Color */
   color: red;
   text-align: center;
+
+  /* Border widht 5px width dashed style*/
   border: 5px dashed purple;
+
   cursor: pointer;
 }
 
@@ -15,10 +19,23 @@ p {
   /*font-style: italic;*/
   font-weight: normal;
   font-size: 200%;
+  /*jenis font*/
   font-family: "Big Shoulders Text", cursive;
   padding: 5%;
 }
 
+img {
+  /*Make the image in right*/
+  float: right;
+}
+
 .paragraf {
   border: 5px dashed green;
+}
+
+footer {
+  /* Clear the float*/
+  clear: both;
+  /* Center the text*/
+  text-align: center;
 }
