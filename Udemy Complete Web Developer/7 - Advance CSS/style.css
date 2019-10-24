@@ -1,3 +1,6 @@
+body {
+  margin: 0px;
+}
 .container {
   /* make the responsive flex box*/
   display: flex;
@@ -16,10 +19,21 @@ h1 {
   border-right: 2px solid pink;
   width: 400px;
   text-align: center;
+  box-shadow: 4px 4px 5px #888888;
+  margin: 0px;
+  margin-top: 10%;
 }
 
 img {
   width: 450px;
   height: 300px;
   margin: 10px;
+
+  /*Image to transition in 1s*/
+  transition: all 1s 0.1s;
+}
+
+img:hover {
+  /*transform the image from 1.0 to 1.1*/
+  transform: scale(1.1);
 }
