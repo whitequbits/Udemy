@@ -13,6 +13,8 @@ O(1 + n + 100)
 
 While (n == so big)
 O(n)
+
+It occured because when n is 1 mill, the 100 + 1 is so small
 */
 
 function PrintFirstItemThenFirstHalfThenSayHi100Times(items) {
