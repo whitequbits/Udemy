@@ -1,3 +1,19 @@
+/*
+Udemy
+Course : Master Coding Interview : Data Structure + Algorithm
+by : Andrei Neagoie
+Big O - 32
+*/
+
+/*
+Big O Analysis :
+This kind of searching method can be O(1) until O(n)
+If the nemo is in the beginning of the array it will become :
+O(1)
+If the nemo is at the end of the array it will become :
+O(n)
+*/
+
 const nemo = ["nemo"];
 const everyone = [
   "dory",
