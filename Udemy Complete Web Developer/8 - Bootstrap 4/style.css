@@ -1,3 +1,7 @@
 .nav-item:hover {
   background-color: orange;
 }
+
+.row {
+  text-align: center;
+}
