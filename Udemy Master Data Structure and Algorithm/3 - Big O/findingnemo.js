@@ -41,3 +41,26 @@ function findNemo(array) {
 }
 
 findNemo(everyone);
+
+// Finding Nemo using EcmaScript 6 style
+
+const findNemo2 = array => {
+  array.forEach(fish => {
+    if (fish == "nemo") {
+      console.log("found NEMO");
+    }
+  });
+};
+
+findNemo2(everyone);
+
+// The other style
+const findNemo3 = array => {
+  for (let fish of array) {
+    if (fish == "nemo") {
+      console.log("found NEMO");
+    }
+  }
+};
+
+findNemo3(everyone);
