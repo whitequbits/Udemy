@@ -2,6 +2,14 @@ let database = [
   {
     username: "tada",
     password: "yesweare"
+  },
+  {
+    username: "nana",
+    password: "123"
+  },
+  {
+    username: "julio",
+    password: "abc"
   }
 ];
 
@@ -23,8 +31,19 @@ let newsFeed = [
 var userNamePrompt = prompt("Insert your username");
 var passwordPrompt = prompt("Insert your password");
 
-function signIn(user, pass) {
-  if (user == database[0].username && pass == database[0].password) {
+function isUserValid(username, password) {
+  for (let i = 0; i < database.length; i++) {
+    if (username == database[i].username && password == database[i].password) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+}
+
+function signIn(username, password) {
+  checkValid = isUserValid(username, password);
+  if ((checkValid = true)) {
     console.log(newsFeed);
   } else {
     console.log("Sorry Wrong Username or Password");
