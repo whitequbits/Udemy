@@ -57,9 +57,17 @@ console.log(total);
 // (1), what is the value of i?
 // (2), Make this map function pure:
 const arrayNum = [1, 2, 4, 5, 8, 9];
-const newArray = arrayNum.map((num, i) => {
+const veryNewArray = arrayNum.map((num, i) => {
   return num * 2;
 });
 // i = 7
 
 //BONUS: create a new list with all user information, but add "!" to the end of each items they own.
+
+const answer = array.map(user => {
+  user.items = user.items.map(items => {
+    return items + "!";
+  });
+  return user;
+});
+console.log(answer);
