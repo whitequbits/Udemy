@@ -71,3 +71,5 @@ const answer = array.map(user => {
   return user;
 });
 console.log(answer);
+
+
