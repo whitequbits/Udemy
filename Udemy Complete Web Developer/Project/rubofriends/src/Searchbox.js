@@ -1,9 +1,13 @@
 import React from "react";
 
-function Searchbox() {
+function Searchbox({ searchfield, searchChange }) {
   return (
     <div className="tc bg-light-green dib br1 pa1 ma1 grow bw2 shadow-5">
-      <input type="search" placeholder="Input Something"></input>
+      <input
+        type="search"
+        placeholder="Input Something"
+        onChange={searchChange}
+      ></input>
     </div>
   );
 }
