@@ -8,9 +8,19 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      robots: robots,
+      robots: [],
       searchfield: ""
     };
+  }
+
+  componentDidMount() {
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then(response => {
+        return response.json();
+      })
+      .then(user => {
+        this.setState({ robots: user });
+      });
   }
 
   onSearchChange = event => {
@@ -23,13 +33,17 @@ class App extends React.Component {
         .toLowerCase()
         .includes(this.state.searchfield.toLowerCase());
     });
-    return (
-      <div className="tc">
-        <h1 className="f1">Rubofriends</h1>
-        <Searchbox searchChange={this.onSearchChange} />
-        <Cardlist robots={filteredRobots} />
-      </div>
-    );
+    if (this.state.robots.length == 0) {
+      return <h1 className="tc">Please Wait</h1>;
+    } else {
+      return (
+        <div className="tc">
+          <h1 className="f1">Rubofriends</h1>
+          <Searchbox searchChange={this.onSearchChange} />
+          <Cardlist robots={filteredRobots} />
+        </div>
+      );
+    }
   }
 }
 
