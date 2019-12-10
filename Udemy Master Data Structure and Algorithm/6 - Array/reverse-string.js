@@ -2,6 +2,7 @@
 
 const string = "Hi My Name is Logo";
 
+// Old Way
 function revstring_old_way(string) {
   let backwards = [];
   string.split("");
@@ -15,6 +16,7 @@ function revstring_old_way(string) {
 
 console.log(revstring_old_way(string));
 
+// JS Master
 function revstringJSMaster(string) {
   if (!string || string.length < 2 || typeof string !== "string") {
     return "You cannot reverse this";
@@ -27,3 +29,13 @@ function revstringJSMaster(string) {
 }
 
 console.log(revstringJSMaster(string));
+
+// ES6
+
+const revstringES6 = string =>
+  string
+    .split("")
+    .reverse()
+    .join("");
+
+console.log(revstringES6(string));
