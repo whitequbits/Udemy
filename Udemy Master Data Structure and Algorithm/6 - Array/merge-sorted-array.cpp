@@ -36,7 +36,7 @@ vector<int> mergeTwoArray(vector<int> arr1, vector<int> arr2)
     }
   }
 
-  sort(mergeArray.begin(), mergeArray[i].end());
+  sort(mergeArray.begin(), mergeArray.end());
 
   return mergeArray;
 }
