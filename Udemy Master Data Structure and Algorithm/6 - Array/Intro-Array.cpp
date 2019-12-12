@@ -4,6 +4,8 @@
 
 using namespace std;
 
+// In CPP we use the vector library for the array
+
 int main()
 {
   vector<string> arr = {
