@@ -24,7 +24,7 @@ int main()
 
   for (int i = 0; i < arr.size(); i++)
   {
-    cout << arr[i];
+    cout << arr[i] << ",";
   }
 
   // pop
@@ -34,10 +34,10 @@ int main()
 
   for (int i = 0; i < arr.size(); i++)
   {
-    cout << arr[i];
+    cout << arr[i] << ",";
   }
 
-  // insert
+  // insert / unshift
   cout << endl;
   cout << "Insert at the beginning of array / unshift" << endl;
   auto it = arr.begin();
@@ -46,7 +46,19 @@ int main()
 
   for (int i = 0; i < arr.size(); i++)
   {
-    cout << arr[i];
+    cout << arr[i] << ",";
+  }
+
+  // splice
+
+  cout << endl;
+  cout << "Insert at  array[2] / unshift" << endl;
+
+  it = arr.insert(it + 2, "hello");
+
+  for (int i = 0; i < arr.size(); i++)
+  {
+    cout << arr[i] << ",";
   }
 
   return 0;
