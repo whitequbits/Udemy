@@ -3,6 +3,13 @@
 
 // 10 --> 5 --> 16
 // head --> next --> tail
+// Specification :
+// Prepend = O(1)
+// append = O(1)
+// lookup = O(n)
+// insert = O(n)
+// delete = O(n)
+
 class Node {
   constructor(value) {
     this.value = value;
@@ -64,7 +71,7 @@ class LinkedList {
 
   traverse(index) {
     let currentNode = this.head;
-    for (let j = 0; j <= index; j++) {
+    for (let j = 0; j < index; j++) {
       currentNode = currentNode.next;
     }
     return currentNode;
@@ -75,11 +82,24 @@ class LinkedList {
     while (currentNode !== null) {
       if (currentNode.value === value) {
         return true;
-      } else {
-        return false;
       }
       currentNode = currentNode.next;
+      return false;
     }
+  }
+
+  remove(index) {
+    const prevNode = this.traverse(index - 1);
+    const nextNode = this.traverse(index + 1);
+    if (index === 0) {
+      this.head = nextNode;
+    } else if (index === this.length - 1) {
+      prevNode.next = null;
+      this.tail = prevNode;
+    } else {
+      prevNode.next = nextNode;
+    }
+    this.length--;
   }
 
   printMyList() {
@@ -107,3 +127,5 @@ console.log(myLinkedList.printMyList());
 myLinkedList.insert(3, 88);
 console.log(myLinkedList.printMyList());
 console.log(myLinkedList.search(105));
+console.log(myLinkedList.remove(6));
+console.log(myLinkedList.printMyList());
