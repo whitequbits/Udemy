@@ -103,6 +103,9 @@ class DoublyLinkedList {
   }
 
   remove(index) {
+    if (index > this.length - 1) {
+      return "error";
+    }
     const prevNode = this.traverse(index - 1);
     const nextNode = this.traverse(index + 1);
     if (index === 0) {
@@ -115,7 +118,7 @@ class DoublyLinkedList {
       prevNode.next = nextNode;
       nextNode.prev = prevNode;
     }
-    this.length--;
+    return "error";
   }
 
   printMyList() {
@@ -143,6 +146,6 @@ console.log(myLinkedList.printMyList());
 myLinkedList.insert(3, 88);
 console.log(myLinkedList.printMyList());
 console.log(myLinkedList.search(105));
-console.log(myLinkedList.remove(3));
+console.log(myLinkedList.remove(7));
 console.log(myLinkedList.printMyList());
 console.log(myLinkedList);
