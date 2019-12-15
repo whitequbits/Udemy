@@ -4,7 +4,8 @@ import bodyParser from "body-parser";
 const app = express();
 
 // MiddleWare Server
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
 
 // the slash is root
 // res is response, which is automaticall send as text/html
@@ -25,13 +26,9 @@ app.get("/", (req, res) => {
 });
 
 app.post("/user", (req, res) => {
-  const user = {
-    name: "Sally",
-    hobby: "Tennis"
-  };
-
+  console.log(req.body);
   // with express it's automatically convert the object into a JSON
-  res.send(user);
+  res.send("Success");
 });
 
 app.listen(3000);
