@@ -1,11 +1,48 @@
 import express from "express";
-import bodyParser from "body-parser";
 
 const app = express();
 
 // MiddleWare Server
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
+
+app.get("", (req, res) => {
+  // request query
+  // http://localhost:3000/?name=bobby
+  console.log(req.query);
+
+  // request header
+  console.log(req.headers);
+
+  // request params
+  // localhost:3000/123
+  console.log(req.params);
+
+  // request body
+  console.log(req.body);
+
+  // with express it's automatically convert the object into a html/text
+  res.send("This is the root");
+});
+
+app.get("/:id", (req, res) => {
+  // request query
+  // http://localhost:3000/123?name=bobby
+  console.log(req.query);
+
+  // request header
+  console.log(req.headers);
+
+  // request params
+  // localhost:3000/123
+  console.log(req.params);
+
+  // request body
+  console.log(req.body);
+
+  // with express it's automatically convert the object into a html/text
+  res.send("This is the id");
+});
 
 // the slash is root
 // res is response, which is automaticall send as text/html
@@ -18,11 +55,6 @@ app.get("/user", (req, res) => {
 
   // with express it's automatically convert the object into a JSON
   res.send(user);
-});
-
-app.get("/", (req, res) => {
-  // with express it's automatically convert the object into a html/text
-  res.send("This is the root");
 });
 
 app.post("/user", (req, res) => {
