@@ -1,10 +1,17 @@
 import express from "express";
 
+// for ES6 you should import this
+import path from "path";
+
+// because ___dirname is not default
+const __dirname = path.resolve();
+
 const app = express();
 
 // MiddleWare Server
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
+app.use(express.static(__dirname + "/public/"));
 
 app.get("", (req, res) => {
   // request query
