@@ -1,3 +1,3 @@
-const largeNumber = 25;
+const largeNumber = 15;
 
 export default largeNumber;
