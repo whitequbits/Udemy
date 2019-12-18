@@ -1,0 +1,13 @@
+Stacks (LIFO - Last In First Out)
+It can be built using the array or Linked List
+Which one is better?
+- Array can be used -> because there are pop and push and also cache locality
+Why not ?
+- Linked List can be used -> because there are append and remove, linked list spread over memory so slower than the array
+
+Queues (FIFO - First In First Out)
+It can be built using the array or Linked List
+Which one is better?
+- Linked List can be used -> because there are prepend and remove
+Why not ?
+- Array can't be used -> because array can't delete item at the beginning also the unshift method has O(n) that bad
