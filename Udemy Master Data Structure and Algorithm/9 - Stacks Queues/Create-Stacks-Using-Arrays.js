@@ -35,6 +35,7 @@ class Stack {
       this.bottom = this.data[0];
       this.length--;
     }
+    return this;
   }
 }
 
