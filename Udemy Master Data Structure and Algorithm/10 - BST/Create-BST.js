@@ -39,20 +39,23 @@ class BST {
   }
 
   lookup(value) {
-    //check form the root
-    let currentNode = this.root;
-
-    // repeatable check
-    do {
-      if (currentNode.value === value) {
-        return "Yes I got it";
-      } else if (currentNode.value > value) {
-        currentNode = currentNode.left;
-      } else if (currentNode.value < value) {
-        currentNode = currentNode.right;
-      }
-    } while (currentNode.left !== null && currentNode.right !== null);
-    return "Sorry you can't find it";
+    //check from the root
+    if (!this.root) {
+      return "BST is empty";
+    } else {
+      let currentNode = this.root;
+      // repeatable check
+      do {
+        if (currentNode.value === value) {
+          return "Yes I got it";
+        } else if (currentNode.value > value) {
+          currentNode = currentNode.left;
+        } else if (currentNode.value < value) {
+          currentNode = currentNode.right;
+        }
+      } while (currentNode.left !== null && currentNode.right !== null);
+      return "Sorry you can't find it";
+    }
   }
 }
 
