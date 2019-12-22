@@ -1,3 +1,8 @@
+// Binary Search Tree
+//     9
+//  4     20
+//1  6  15  170
+
 class Node {
   constructor(value) {
     this.left = null;
