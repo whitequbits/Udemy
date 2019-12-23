@@ -6,6 +6,7 @@ class Graph {
   addVertex(node) {
     //add new hash that contain array
     this.adjacentList[node] = [];
+    this.numberOfNodes++;
   }
   addEdge(node1, node2) {
     //undirected Graph
