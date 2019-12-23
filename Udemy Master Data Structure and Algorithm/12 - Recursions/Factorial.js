@@ -11,6 +11,7 @@ function findFactorialRecursive(number) {
 }
 
 function findFactorialIterative(number) {
+  answer = 1;
   while (number !== 0) {
     answer *= number;
     number -= 1;
@@ -18,8 +19,8 @@ function findFactorialIterative(number) {
   return answer;
 }
 
-// const result = findFactorialRecursive(5);
-// console.log(result);
+const result = findFactorialRecursive(5);
+console.log("Recursive : ", result);
 
 const result2 = findFactorialIterative(5);
-console.log(result2);
+console.log("Iterative : ", result2);
