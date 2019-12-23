@@ -47,3 +47,15 @@ const answer2 = fibonacciRecursive(6);
 console.log(answer2);
 const answer3 = fibonacciIterative(6);
 console.log(answer3);
+
+// Solution from Andrei
+
+function fibonacciRecursiveAndrei(n) {
+  if (n < 2) {
+    return n;
+  }
+  return fibonacciRecursiveAndrei(n - 1) + fibonacciRecursiveAndrei(n - 2);
+}
+
+const answer4 = fibonacciRecursiveAndrei(6);
+console.log(answer4);
