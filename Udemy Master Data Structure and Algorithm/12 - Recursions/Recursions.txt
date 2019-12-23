@@ -1,0 +1,8 @@
+Recursions
+
+Pros:
+DRY
+Readability
+
+Cons:
+Large Stack
