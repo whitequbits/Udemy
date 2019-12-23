@@ -1,3 +1,6 @@
+//Recursion = O(2ˆN)
+//Iterative = O(N)
+
 // Given a number N return the index value of the Fibonacci sequence, where the sequence is:
 
 // 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144 ...
@@ -11,6 +14,7 @@ function fibonacciGoldenRatio(n) {
   return (Phi ** n - (-1 * Phi) ** -n) / Math.sqrt(5);
 }
 
+// Using Array Recursive
 let counter = 0;
 let answer = [];
 
@@ -27,6 +31,7 @@ function fibonacciRecursive(n) {
   return answer[answer.length - 1];
 }
 
+// Using Iterative and Array
 function fibonacciIterative(n) {
   let counter = 0;
   let answer = [];

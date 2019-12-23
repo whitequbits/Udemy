@@ -1,3 +1,6 @@
+//Recursion = O(2ˆN)
+//Iterative = O(N)
+
 // Write two functions that finds the factorial of any number. One should use recursive, the other should just use a for loop
 let answer = 1;
 
