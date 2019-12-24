@@ -30,3 +30,21 @@ Best Sorting Algorithm, based on the case
 
 Conclusion :
 There is no best algorithm in sorting, and it depend on the situation
+
+(https://stackoverflow.com/questions/1517793/what-is-stability-in-sorting-algorithms-and-why-is-it-important)
+A stable sorting algorithm is the one that sorts the identical elements in their same order as they appears in the input, whilst unstable sorting may not satisfy the case.
+
+Stable Sorting Algorithms:
+
+Insertion Sort
+Merge Sort
+Bubble Sort
+Tim Sort
+Counting Sort
+
+Unstable Sorting Algorithms:
+
+Heap Sort
+Selection sort
+Shell sort
+Quick Sort
