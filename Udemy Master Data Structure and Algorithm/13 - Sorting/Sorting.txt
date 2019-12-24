@@ -1,0 +1,32 @@
+Sorting is one of algorithm in CS
+There are few of sorting algorithm
+
+Best Sorting Algorithm, based on the case
+(https://www.toptal.com/developers/sorting-algorithms)
+
+1. Random Data
+  Fastest : 
+  Heap Sort,
+  Time Complexity Worse : O(n log(n))
+  Space Complexity Worse : O(1)
+
+2. Nearly Sorted
+  Fastest : 
+  Insertion Sort, 
+  Time Complexity Worse : O(nˆ2)
+  Space Complexity Worse : O(1)
+
+3. Reversed
+  Fastest : 
+  Shell Sort, 
+  Time Complexity Worse : O((n log(n))ˆ2)
+  Space Complexity Worse : O(1)
+
+4. Few Unique
+  Fastest : 
+  Quick 3 Sort,
+  Time Complexity Worse : O(nˆ2)
+  Space Complexity Worse : O(log(n))
+
+Conclusion :
+There is no best algorithm in sorting, and it depend on the situation
