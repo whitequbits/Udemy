@@ -30,6 +30,10 @@ Best Sorting Algorithm, based on the case
 
 Conclusion :
 There is no best algorithm in sorting, and it depend on the situation
+But the commercial application is using Quick Sort
+Why?
+"The most direct competitor of quicksort is heapsort. Heapsort is typically somewhat slower than quicksort, but the worst-case running time is always Θ(nlogn). Quicksort is usually faster, though there remains the chance of worst case performance except in the introsort variant, which switches to heapsort when a bad case is detected. If it is known in advance that heapsort is going to be necessary, using it directly will be faster than waiting for introsort to switch to it."
+from (https://stackoverflow.com/questions/2467751/quicksort-vs-heapsort)
 
 (https://stackoverflow.com/questions/1517793/what-is-stability-in-sorting-algorithms-and-why-is-it-important)
 A stable sorting algorithm is the one that sorts the identical elements in their same order as they appears in the input, whilst unstable sorting may not satisfy the case.
