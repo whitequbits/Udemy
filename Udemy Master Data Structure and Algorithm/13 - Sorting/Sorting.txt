@@ -52,3 +52,8 @@ Heap Sort
 Selection sort
 Shell sort
 Quick Sort
+
+Non - Comparison Sort:
+
+Counting Sort
+Radix Sort
