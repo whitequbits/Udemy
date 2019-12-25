@@ -1,0 +1,34 @@
+//#1 - Sort 10 schools around your house by distance:
+Insertion Sort
+Why? Because it is only contain small data
+
+//#2 - eBay sorts listings by the current Bid amount:
+Counting Sort
+Why? Because the bid usually has range
+
+//#3 - Sport scores on ESPN
+Quick Sort
+Why? Because the sport score is vary according to sport type
+
+//#4 - Massive database (can't fit all into memory) needs to sort through past year's user data
+Merge Sort
+Why? Because the data is huge and we don't want use the quick sort (it could get the worse)
+
+//#5 - Almost sorted Udemy review data needs to update and add 2 new reviews
+Insertion Sort
+Why? Because it is a Pre ordered data
+
+//#6 - Temperature Records for the past 50 years in Canada
+Radix / Counting Sort
+Why? If it's a integer data
+
+or Quick Sort
+If not sure
+
+//#7 - Large user name database needs to be sorted. Data is very random.
+Quick Sort
+Why? Because it big and random
+
+//#8 - You want to teach sorting for the first time
+Bubble Sort / Selection Sort
+Why? It's easier to understand
