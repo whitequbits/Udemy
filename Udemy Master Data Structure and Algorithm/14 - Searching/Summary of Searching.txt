@@ -1,0 +1,20 @@
+Summary of Searching
+
+Breadth First Search
+"If you want the shortest path"
+Pro: 
+- Shortest Path
+- Closer Nodes
+
+Cons: 
+- More Memory
+
+Depth First Search
+"If you know the node is really deep"
+Pro: 
+- Less Memory
+- Does Path Exist?
+
+Cons:
+- Can Get Slow
+
