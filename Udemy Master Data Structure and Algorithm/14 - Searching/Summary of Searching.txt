@@ -1,20 +1,28 @@
 Summary of Searching
 
-Breadth First Search
+Breadth First Search (BFS)
 "If you want the shortest path"
 Pro: 
 - Shortest Path
 - Closer Nodes
-
 Cons: 
 - More Memory
+Real Use Case:
+- Find shortest path, but assume each path is at the same weight or distance
 
-Depth First Search
+Depth First Search (DFS)
 "If you know the node is really deep"
 Pro: 
 - Less Memory
 - Does Path Exist?
-
 Cons:
 - Can Get Slow
+Real Use Case:
+- Find the exit route in the maze, go  deep as possible
+
+Dijkstra + Bellman-Ford Algorithm
+"Allow us to find shortes path of two nodes, with vary weigth or distance between each node"
+Bellman-Ford is more complex, with O(nˆ2)
+Dijkstra is a little bit faster than Bellman-Ford, but can't accomodate negative weight (-)
+
 
