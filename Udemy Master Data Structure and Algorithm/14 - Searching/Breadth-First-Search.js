@@ -166,6 +166,25 @@ class BST {
     }
     return list;
   }
+
+  breadthFirstSearchRecursive(queue, list) {
+    if (!queue.length) {
+      return list;
+    }
+    //currentNode is now get from the queue
+    currentNode = queue.shift();
+    //push currentNode value to the list
+    list.push(currentNode.value);
+    //if currentNode has left child, push the child to queue
+    if (currentNode.left) {
+      queue.push(currentNode.left);
+    }
+    //if currentNode has right child, push the child to queue
+    if (currentNode.right) {
+      queue.push(currentNode.right);
+    }
+    return this.breadthFirstSearchRecursive(queue, list);
+  }
 }
 
 const myBST = new BST();
@@ -178,3 +197,4 @@ myBST.insert(15);
 myBST.insert(170);
 console.log(myBST);
 console.log(myBST.breadthFirstSearch());
+console.log(myBST.breadthFirstSearch([this.root], []));
