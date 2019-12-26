@@ -141,51 +141,66 @@ class BST {
     }
   }
 
-  breadthFirstSearch() {
-    let currentNode = this.root;
-    // list is for listed value
-    let list = [];
-    //queue is to store nodes temporary
-    //It's make the BFS bad because use more memory
-    let queue = [];
-    queue.push(currentNode);
+  DFSInOrder() {
+    // call traverseInOrder recursion funciton
+    return this.traverseInOrder(this.root, []);
+  }
 
-    while (queue.length > 0) {
-      //currentNode is now get from the queue
-      currentNode = queue.shift();
-      //push currentNode value to the list
-      list.push(currentNode.value);
-      //if currentNode has left child, push the child to queue
-      if (currentNode.left) {
-        queue.push(currentNode.left);
-      }
-      //if currentNode has right child, push the child to queue
-      if (currentNode.right) {
-        queue.push(currentNode.right);
-      }
+  traverseInOrder(node, list) {
+    //if the node left is there, recursion the left
+    if (node.left) {
+      this.traverseInOrder(node.left, list);
+    }
+    //because in order wnat to find the deepest on the left first, so
+    //the value that push is the deepest on the left
+    list.push(node.value);
+
+    //if the node right is there, recursion the right
+    if (node.right) {
+      this.traverseInOrder(node.right, list);
     }
     return list;
   }
 
-  breadthFirstSearchRecursive(queue, list) {
-    // the recursion will end if the queue.length = 0, and return the list
-    if (!queue.length) {
-      return list;
+  DFSPreOrder() {
+    // call traverseInOrder recursion funciton
+    return this.traversePreOrder(this.root, []);
+  }
+
+  traversePreOrder(node, list) {
+    //because preorder wnat to push the near to root first, so
+    list.push(node.value);
+
+    //if the node left is there, recursion the left
+    if (node.left) {
+      this.traversePreOrder(node.left, list);
     }
-    //currentNode is now get from the queue
-    currentNode = queue.shift();
-    //push currentNode value to the list
-    list.push(currentNode.value);
-    //if currentNode has left child, push the child to queue
-    if (currentNode.left) {
-      queue.push(currentNode.left);
+
+    //if the node right is there, recursion the right
+    if (node.right) {
+      this.traversePreOrder(node.right, list);
     }
-    //if currentNode has right child, push the child to queue
-    if (currentNode.right) {
-      queue.push(currentNode.right);
+    return list;
+  }
+
+  DFSPostOrder() {
+    // call traverseInOrder recursion funciton
+    return this.traversePostOrder(this.root, []);
+  }
+
+  traversePostOrder(node, list) {
+    //if the node left is there, recursion the left
+    if (node.left) {
+      this.traversePostOrder(node.left, list);
     }
-    //call the recursion function again
-    return this.breadthFirstSearchRecursive(queue, list);
+
+    //if the node right is there, recursion the right
+    if (node.right) {
+      this.traversePostOrder(node.right, list);
+    }
+    //because postorder want to push the deepest first, so
+    list.push(node.value);
+    return list;
   }
 }
 
@@ -198,5 +213,6 @@ myBST.insert(6);
 myBST.insert(15);
 myBST.insert(170);
 console.log(myBST);
-console.log(myBST.breadthFirstSearch());
-console.log(myBST.breadthFirstSearch([myBST.root], []));
+console.log(myBST.DFSInOrder());
+console.log(myBST.DFSPreOrder());
+console.log(myBST.DFSPostOrder());
