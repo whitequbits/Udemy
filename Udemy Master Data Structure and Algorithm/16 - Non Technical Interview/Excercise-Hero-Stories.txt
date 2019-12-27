@@ -1,0 +1,11 @@
+PREPARE STORIES !
+4 Heroes stories:
+- Technical (Story about how good and smart are you)
+- Success (Story about your past success in building app)
+- Leadership (Story about your leadership experience)
+- Challenge (Story about How you overcame problem?)
+
+PROTOTYPE !
+
+""
+

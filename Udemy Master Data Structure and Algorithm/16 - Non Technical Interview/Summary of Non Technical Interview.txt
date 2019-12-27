@@ -1,0 +1,76 @@
+Summary of Non Technical Interview
+
+Mindset:
+- This is not only chance
+- Be exciting
+
+3 Question:
+- Can you do the job?
+- Can I work with you?
+- Are you going to improve? (Not only in technical side but also in non technical)
+
+PREPARE STORIES !
+4 Heroes stories:
+- Technical (Story about how good and smart are you)
+- Success (Story about your past success in building app)
+- Leadership (Story about your leadership experience)
+- Challenge (Story about How you overcame problem?)
+
+Tell Me About Yourself !
+- Your triggers of success
+- Mention things you want to get asked
+- Skills should be relevant to job
+
+Why Us (Why you choose our company)?
+- Show you want to grow
+- Demonstrate why you are the best
+Bad:
+"I just saw your company in Linkedin and I need job""
+Good:
+"I just searching and found your company and it's interesting, I like the idea and innovation that implemented by your company"
+
+Why did you leave your job?
+- No negativity
+- Tell that you want to grow
+
+Tell me about problem + how you solved it!
+(SAR - Situation Action Result)
+- Have this prepared 
+- Have metrics and numbers (eg: the user is increasing 50%)
+- Scaling, performance, security
+
+Tell me about an interesting Project!
+- Show how you are different
+- Relate it to this job
+
+What is your biggest weakness?
+- Real Answer (No lie)
+- Show how you improved it
+
+Any Questions for me?
+- Focus on them, not company (YOU)
+- Mention something they mentioned
+eg: (https://github.com/viraptor/reverse-interview)
+- What is your mistake in first month and how overcome it
+- How and where is the company heading to?
+- How is the first week of the job?
+- Why are you choose this company?
+
+Secret Weapon:
+- Simplicity over Complexity (Readible code)
+- Premature optimization is the root of the all evil (Performance oriented)
+- Overall goal, not myopic (overengineering, need to understand business consequences)
+- No complaining about client/code/etc
+- No ego (dont afraid with mistake and take the feedback)
+
+After the interview:
+- Don't overuse "I"
+- Talk about the interviewer
+- Express how you are the ideal candidate
+- Don't brag
+- If you can't done the coding interview really well, you can email the interviewer and show you can find and learn for the answer
+
+
+
+
+

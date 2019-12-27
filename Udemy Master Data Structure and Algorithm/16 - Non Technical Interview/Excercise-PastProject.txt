@@ -1,0 +1,9 @@
+Tell me about problem + how you solved it!
+(SAR - Situation Action Result)
+- Have this prepared 
+- Have metrics and numbers (eg: the user is increasing 50%)
+- Scaling, performance, security
+
+PROTOTYPE !
+
+""
