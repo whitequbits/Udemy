@@ -1,0 +1,69 @@
+Basic Syntax
+
+//Create table
+CREATE TABLE table_nam(column_name1 data_type1, column_name2 data_type2, column_name3 data_type3);
+CREATE TABLE users(name text, age int, birthday date);
+
+//Insert data to the table
+INSERT INTO table_name(column_name1, column_name2, column_name3) VALUES(value_1, value_2, value_3);
+INSERT INTO users(name, age, birthday) VALUES('Bagus', 17, '2012-02-24');
+
+//Select data from the table
+SELECT column_name1, column_name2, column_name3 FROM table_nam;
+SELECT name, age, birthday FROM users;
+
+//Select all from the table
+SELECT * FROM users;
+
+//Add new column in existing table
+ALTER TABLE table_name ADD column_name data_type;
+ALTER TABLE users ADD scores smallint;
+
+//Update the scores
+UPDATE table_name SET column_name1 = value_1 WHERE column_name2 = value_2;
+UPDATE users SET scores = 50 WHERE name = 'Sally';
+
+//Update two scores
+UPDATE users SET scores = 100 WHERE name = 'Norah' OR name = 'Bagus';
+
+//SQL Conditional Selections
+SELECT * FROM users WHERE name LIKE 'B%';
+
+//SQL ORDER BY (Descending and Ascending)
+SELECT * FROM users ORDER BY scores DESC;
+SELECT * FROM users ORDER BY scores ASC;
+
+//SQL Functions
+SELECT AVG(scores) FROM users;
+SELECT SUM(age) FROM users;
+SELECT COUNT(name) FROM users;
+
+//CREATE TABLE with Primary Key (Primary Key Must be unique & name in this case will be the Foreign Key)
+CREATE TABLE login(
+  id serial NOT NULL PRIMARY KEY,
+  secret VARCHAR(100) NOT NULL,
+  name text UNIQUE NOT NULL
+);
+
+//INSERT INTO
+INSERT INTO login(secret, name) VALUES ('abc', 'Bagus');
+INSERT INTO login(secret, name) VALUES ('sdb', 'Sally');
+INSERT INTO login(secret, name) VALUES ('asdas', 'Norah');
+
+//SQL JOIN
+SELECT * FROM users JOIN login ON users.name = login.name;
+
+//SQL LEFT JOIN
+SELECT * FROM users LEFT JOIN login ON users.name = login.name ORDER BY scores DESC;
+SELECT * FROM users LEFT JOIN login ON users.name = login.name ORDER BY scores ASC;
+
+//DELETE
+DELETE FROM users WHERE name = 'Robert';
+
+//DROP TABLE (Delete Table)
+DROP TABLE login;
+DROP TABLE users;
+
+Commands
+\d => to see list of realtions
+\q => quit
