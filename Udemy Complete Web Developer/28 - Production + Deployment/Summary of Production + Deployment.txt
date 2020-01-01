@@ -1,0 +1,11 @@
+Summary of Production + Deployment
+
+Code Review:
+- Refactoring
+- Clean and Readible
+
+Security Review:
+- Validation
+- Not expose the api key
+
+
