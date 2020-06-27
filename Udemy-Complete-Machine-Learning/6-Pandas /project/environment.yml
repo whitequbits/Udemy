@@ -1,0 +1,5 @@
+name: intro-to-pandas
+dependencies:
+  - python
+  - pandas
+  - jupyter
