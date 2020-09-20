@@ -25,6 +25,7 @@
 ![Score Description Task 1](https://udemy-images.s3.amazonaws.com/redactor/raw/2018-05-08_08-28-13-5fa2816bfdaefb2d0e163e61b679b2a9.JPG)
 
 - 20 minutes for Task 1
+- 150 words minimum
 
 ### Important word
 
@@ -37,6 +38,35 @@
 ![4 Key Questions](./images/4-key-questions.png)
 
 ![Planning Answers](./images/planning-answers.png)
+
+---
+
+## IELTS Writing Task 2
+
+- 40 minutes for Task 2
+- 250 words minimum
+
+### Structure
+
+![structure](./images/writing-task2-structure.png)
+
+### Type of Questions
+
+![discussion](./images/writing-task2-discussion.png)
+
+![opinion](./images/writing-task2-opinion.png)
+
+![two part](./images/writing-task2-two-part.png)
+
+![problem & solution](./images/writing-task2-problem-solution.png)
+
+![advantage & disadvantage](./images/writing-task2-adv-disv.png)
+
+### How to plan your writing task 2
+
+![Plan B](./images/writing-task2-plan-b.png)
+
+![Plan A](./images/writing-task2-plan-a.png)
 
 ---
 
