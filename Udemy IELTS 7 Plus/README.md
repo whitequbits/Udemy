@@ -35,7 +35,7 @@
 
 ### Planning Answer
 
-![4 Key Questions](./images/4-key-questions.png)
+![4 Key Questions](./images/writing/writing-task1-4-key-questions.png)
 
 ![Planning Answers](./images/planning-answers.png)
 
@@ -48,25 +48,55 @@
 
 ### Structure
 
-![structure](./images/writing-task2-structure.png)
+![structure](./images/writing/writing-task2-structure.png)
 
 ### Type of Questions
 
-![discussion](./images/writing-task2-discussion.png)
+![discussion](./images/writing/writing-task2-discussion.png)
 
-![opinion](./images/writing-task2-opinion.png)
+![opinion](./images/writing/writing-task2-opinion.png)
 
-![two part](./images/writing-task2-two-part.png)
+![two part](./images/writing/writing-task2-two-part.png)
 
-![problem & solution](./images/writing-task2-problem-solution.png)
+![problem & solution](./images/writing/writing-task2-problem-solution.png)
 
-![advantage & disadvantage](./images/writing-task2-adv-disv.png)
+![advantage & disadvantage](./images/writing/writing-task2-adv-disv.png)
 
 ### How to plan your writing task 2
 
-![Plan B](./images/writing-task2-plan-b.png)
+![Plan B](./images/writing/writing-task2-plan-b.png)
 
-![Plan A](./images/writing-task2-plan-a.png)
+![Plan A](./images/writing/writing-task2-plan-a.png)
+
+### Writing Task 2 Structure
+
+![Master Structure](./images/writing/writing-task2-structure.png)
+
+#### Introduction Structure
+
+![Introduction Structure](./images/writing/writing-task2-introduction.png)
+
+#### Supporting Paragraph Structure
+
+![Supporting Paragraph Structure](./images/writing/writing-task2-supporting-paragraph.png)
+
+![Supporting Paragraph Example 1](./images/writing/writing-task2-supporting-paragraph-ex1.png)
+
+![Supporting Paragraph Example 2](./images/writing/writing-task2-supporting-paragraph-ex2.png)
+
+#### Conclusion Structure
+
+![Conclusion Structure](./images/writing/writing-task2-conclusion.png)
+
+![Conclusion Example 1](./images/writing/writing-task2-conclusion-ex1.png)
+
+![Conclusion Example 2](./images/writing/writing-task2-conclusion-ex2.png)
+
+### Writing Task 2 Planning
+
+![Planning Example 1](./images/writing/writing-task2-plan-ex1.png)
+
+![Planning Example 2](./images/writing/writing-task2-plan-ex2.png)
 
 ---
 
@@ -106,13 +136,13 @@
 
     - 1 Minutes to prepare
   
-    ![speaking part 2 ex 1](./images/speaking-part-2-ex1.png)
+    ![speaking part 2 ex 1](./images/speaking/speaking-part-2-ex1.png)
 
-    ![speaking part 2 ex 2](./images/speaking-part-2-ex2.png)
+    ![speaking part 2 ex 2](./images/speaking/speaking-part-2-ex2.png)
   
    - Extend speaking until 2 minutes
 
-    ![extend speakng](./images/extend-speaking.png)
+    ![extend speakng](./images/speaking/extend-speaking.png)
 
 3. Interview Style
 
@@ -141,7 +171,7 @@
 
 ### Grammar
 
-![Tense Timeline](./images/english-tenses-timeline.jpg)
+![Tense Timeline](./images/speaking/english-tenses-timeline.jpg)
 
 #### Sentence Structures
 
