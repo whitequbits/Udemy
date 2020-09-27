@@ -37,7 +37,65 @@
 
 ![4 Key Questions](./images/writing/writing-task1-4-key-questions.png)
 
-![Planning Answers](./images/planning-answers.png)
+![Planning Answers](./images/writing/writing-task1-planning-answers.png)
+
+![Plan 1](./images/writing/writing-task1-plan1.png)
+
+![Plan 2](./images/writing/writing-task1-plan2.png)
+
+![Plan 3](./images/writing/writing-task1-plan3.png)
+
+### Structure
+
+![Writing Task 1 Structure](./images/writing/writing-task1-answer-structure.png)
+
+#### Introduction
+
+![Writing Task 1 Intro 1](./images/writing/writing-task1-intro1.png)
+
+![Writing Task 1 Intro 2](./images/writing/writing-task1-intro2.png)
+
+![Writing Task 1 Intro 3](./images/writing/writing-task1-intro3.png)
+
+#### Overview
+
+![Writing Task 1 overview 1](./images/writing/writing-task1-overview1.png)
+
+![Writing Task 1 overview 2](./images/writing/writing-task1-overview2.png)
+
+#### Detail Paragraph
+
+![Writing Task 1 detail paragraph 1](./images/writing/writing-task1-detail-paragraph1.png)
+
+![Writing Task 1 detail paragraph 2](./images/writing/writing-task1-detail-paragraph2.png)
+
+![Writing Task 1 detail paragraph 3](./images/writing/writing-task1-detail-paragraph3.png)
+
+### Grammar Task 1
+
+![Writing Task 1 grammar 1](./images/writing/writing-task1-grammar1.png)
+
+![Writing Task 1 grammar 2](./images/writing/writing-task1-grammar2.png)
+
+![Writing Task 1 grammar 3](./images/writing/writing-task1-grammar3.png)
+
+### Vocabulary Task 1
+
+![Writing Task 1 vocab 1](./images/writing/writing-task1-vocab1.png)
+
+![Writing Task 1 vocab 2](./images/writing/writing-task1-vocab2.png)
+
+![Writing Task 1 vocab 3](./images/writing/writing-task1-vocab3.png)
+
+![Writing Task 1 vocab 4](./images/writing/writing-task1-vocab4.png)
+
+![Writing Task 1 vocab 5](./images/writing/writing-task1-vocab5.png)
+
+### Tenses Task 1
+
+![Writing Task 1 tenses 1](./images/writing/writing-task1-tenses1.png)
+
+![Writing Task 1 tenses 2](./images/writing/writing-task1-tenses2.png)
 
 ---
 
@@ -97,6 +155,24 @@
 ![Planning Example 1](./images/writing/writing-task2-plan-ex1.png)
 
 ![Planning Example 2](./images/writing/writing-task2-plan-ex2.png)
+
+### Writing Task 2 Vocabulary
+
+![Writing Task 2 Vocabulary 1](./images/writing/writing-task2-vocab1.png)
+
+![Writing Task 2 Vocabulary 2](./images/writing/writing-task2-vocab2.png)
+
+![Writing Task 2 Vocabulary 3](./images/writing/writing-task2-vocab3.png)
+
+### Writing Task 2 Grammar
+
+![Writing Task 2 Grammar 1](./images/writing/writing-task2-grammar1.png)
+
+![Writing Task 2 Grammar 2](./images/writing/writing-task2-grammar2.png)
+
+![Writing Task 2 Grammar 3](./images/writing/writing-task2-grammar3.png)
+
+![Writing Task 2 Grammar 4](./images/writing/writing-task2-grammar4.png)
 
 ---
 
