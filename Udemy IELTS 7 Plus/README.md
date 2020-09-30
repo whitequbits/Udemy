@@ -20,6 +20,47 @@
 
 ---
 
+## IELTS Reading
+
+- Total 60 minutes
+- 40 questions
+
+### Reading style
+
+- Skimming & Scanning => Locating information
+  - read first & last paragraph and
+  - look for important info (dates, name, keywords)
+- Reading for detail => Better understanding
+
+### Tips and Trick of Reading
+
+- Underline the keyword
+- Two reading strategies
+
+### Strategies
+
+![Two Strategies](./images/reading/reading-two-strategies.png)
+
+![True False Not Given](./images/reading/reading-tfng.png)
+
+![Summary Completion](./images/reading/reading-summary-completion.png)
+
+![Question](./images/reading/reading-question.png)
+
+![Multiple Choice](./images/reading/reading-multiple-choice.png)
+
+![Matching Name](./images/reading/reading-matching-names.png)
+
+![Matching Info](./images/reading/reading-matching-info.png)
+
+![Matching Heading](./images/reading/reading-matching-headings.png)
+
+![Matching Ending](./images/reading/reading-ending.png)
+
+![Label Diagram](./images/reading/reading-label-diagram.png)
+
+---
+
 ## IELTS Writing Task 1
 
 ![Score Description Task 1](https://udemy-images.s3.amazonaws.com/redactor/raw/2018-05-08_08-28-13-5fa2816bfdaefb2d0e163e61b679b2a9.JPG)
